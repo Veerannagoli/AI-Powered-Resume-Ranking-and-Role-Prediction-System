@@ -1,0 +1,12 @@
+flask
+pandas
+scikit-learn
+sentence-transformers
+torch
+groq
+PyPDF2
+nltk
+rank-bm25
+python-dotenv
+werkzeug
+gunicorn
