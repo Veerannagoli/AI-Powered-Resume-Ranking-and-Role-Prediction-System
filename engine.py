@@ -19,7 +19,7 @@ class ResumeRankingEngine:
             raise ValueError("Groq API Key is missing!")
         self.client = Groq(api_key=groq_api_key)
         self.model_id = "llama-3.1-8b-instant"
-        self.embedder = SentenceTransformer("all-mpnet-base-v2")
+        self.embedder = SentenceTransformer("all-MiniLM-L6-v2")
         self.stop_words = set(stopwords.words('english'))
         
         # 1. LOAD THE LOCAL ML MODEL (NexusRole)
